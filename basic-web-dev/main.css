@@ -1,0 +1,163 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.877);
+    background-color: rgb(73, 73, 73);
+    /* background-color: #4c4c4c; */
+}
+
+/* Header */
+nav {
+    text-align: center;
+}
+
+.custom_header {
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    color: maroon;
+}
+
+.custom_header_menu {
+    margin: 0px;
+    text-align: left;
+    padding: 20px 50px;
+}
+
+.custom_header_menu_items {
+    list-style: none;
+    display: inline-block;
+}
+
+.custom_header_menu_items a {
+    text-decoration: none;
+    padding: 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: maroon;
+    transition: .8s;
+}
+
+.custom_header_menu_items a:hover {
+    color:pink;
+    transition: .5s;
+}
+
+.custom_header_text {
+    text-align: left;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate( -60%, 30%);
+}
+
+.custom_header_text h1 {
+    font-size: 4.5rem;
+}
+
+.custom_header_text p {
+    font-size: 1.2rem;
+}
+
+/* Main */
+main {
+    padding: 100px 150px;
+    height: 100vh;
+}
+
+/* About me */
+.section_about_me_heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.section_about_me {
+    display: grid;
+    height: 350px;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 500px 500px;
+}
+.section_about_me_img {
+    background-image: url("person.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.section_about_me_desc {
+    text-align: center;
+    padding: 40px;
+}
+
+/* Contact Me */
+.section_contact_me_heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    padding-top: 100px;
+}
+
+.section_contact_me_form {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-rows: 40px 40px 80px 40px;
+    grid-gap: 20px;
+}
+
+.section_contact_me_input {
+    width: 500px;
+    height: 100%;
+    padding: 0px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: .5s;
+    outline-color: #ccc;
+}
+
+.section_contact_me_input:focus-visible {
+    transition: .5s;
+    outline-color: #1291f9;
+}
+
+.section_contact_me_textarea {
+    font-family: sans-serif;
+    width: 500px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: .5s;
+    outline-color: #ccc;
+}
+
+.section_contact_me_textarea:focus-visible {
+    transition: .5s;
+    outline-color: #1291f9;
+}
+
+.section_contact_me_submit {
+    width: 100%;
+    border: none;
+    color: white;
+    height: 100%;
+    font-size: 15px;
+    background: rgb(0, 139, 139);
+    border-radius: 5px;
+}
+
+footer{
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    margin-left: -150px;
+    margin-right: -150px;
+}
